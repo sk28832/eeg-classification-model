@@ -1,12 +1,6 @@
-![Shape 2](RackMultipart20230514-1-h9mpfu_html_ee9ce3501fc9fc75.gif)
-
 **EEG Classification using CNNs and RNNs**
 
-Arvind Kalyan Richard Jiang Shreyank Kadadi
-
-Computer Science & Engineering Computer Science Computational and Systems Biology
-
-arvindkalyan@g.ucla.edu richardrjjiang@g.ucla.edu sk28832@g.ucla.edu
+Shreyank Kadadi, Arvind Kalyan, Richard Jiang 
 
 **Abstract**
 
