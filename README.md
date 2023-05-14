@@ -1,4 +1,4 @@
-**EEG Classification using CNNs and RNNs**
+# **EEG Classification using CNNs and RNNs**
 
 Shreyank Kadadi, Arvind Kalyan, Richard Jiang 
 
@@ -6,7 +6,7 @@ Shreyank Kadadi, Arvind Kalyan, Richard Jiang
 
 _In this project, we aim to classify EEG data using convolutional neural networks (CNNs) and recurrent neural networks (RNNs), and hybrids of the two, into one of four classes (moving right hand, left hand, both legs, or tongue). The data consists of 22 channels taken at 1000 time steps and 9 labels, 4 of which we wish to classify. We investigate different RNNs, and hybrids of CNNs and RNNs, and are able to achieve an accuracy of 73%._
 
-# **Introduction**
+## **Introduction**
 
 An electroencephalogram (EEG) is a non-invasive procedure for obtaining brain activity. This paper aims to classify EEG data from four motor imagery tasks (imagination of different movements). The first neural network architecture we decided to pursue was a CNN. CNNs have become increasingly prevalent in computer vision tasks since the nature of their convolution and pooling layers allows for the network to routinely and adaptively learn spatial features in an image. With the introduction of temporal filters in the architecture, CNNs also become capable of learning and classifying visual time-series data. Hence, we believed that using a CNN with both spatial and temporal filters would allow us to capture visual nuances and hierarchies over time in the EEG data and achieve a high classification accuracy.
 
@@ -14,7 +14,7 @@ Another class of neural networks we implemented to classify the EEG data was the
 
 To fully highlight the benefits of both CNNs and RNNs, we also implemented two hybrid architectures: CNN+LSTM and CNN+GRU. By doing so, we hope to more accurately capture spatial data through the CNN while also grasping recurrency and connectivity information over time with the RNNs.
 
-# **Results**
+## **Results**
 
   1. **Classification for a single subject**
 
@@ -28,7 +28,7 @@ Using data from all subjects and the CNN-LSTM model described in the next sectio
 
 We then tried to optimize classification accuracy across all subjects. Our base convolution architecture took inspiration from Chen et al.[1]. We note that an architecture consisting of convolutional layers and an LSTM layer (72.7%) or GRU layer (73%) This significantly outperforms other architectures we tried, such as a pure CNN (70%), pure LSTM (35%), and pure GRU models (28%).
 
-# **Discussion**
+## **Discussion**
 
   1. **Model Architectures**
 
@@ -68,6 +68,6 @@ Further, EEG signals in other subjects of the same motor imagery does not differ
 
 Figure 1: Accuracy comparison across our models when classifying all subjects.
 
-# **References**
+## **References**
 
 1. [Chen, X., Teng, X., Chen, H., Pan, Y., & Geyer, P. (2022). Toward reliable signals decoding for electroencephalogram: A benchmark study to EEGNeX.](https://arxiv.org/abs/2207.12369)
