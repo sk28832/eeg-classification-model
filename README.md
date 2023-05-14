@@ -2,7 +2,7 @@
 
 Shreyank Kadadi, Arvind Kalyan, Richard Jiang 
 
-**Abstract**
+## **Abstract**
 
 _In this project, we aim to classify EEG data using convolutional neural networks (CNNs) and recurrent neural networks (RNNs), and hybrids of the two, into one of four classes (moving right hand, left hand, both legs, or tongue). The data consists of 22 channels taken at 1000 time steps and 9 labels, 4 of which we wish to classify. We investigate different RNNs, and hybrids of CNNs and RNNs, and are able to achieve an accuracy of 73%._
 
